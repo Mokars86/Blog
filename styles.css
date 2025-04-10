@@ -17,14 +17,14 @@ body, html{
 .content{
     background-color:hsl(0, 0%, 100%);
     padding:2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     
 }
 
 .logo{
     width: 400px;
     object-fit: contain;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 #title{
