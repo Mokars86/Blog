@@ -1,80 +1,79 @@
 body, html{
-    padding: 0;
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 100%;
-    background-color: hsl(0, 0%, 100%);
+    padding:0;
+    margin:0;
+    color: #000000;
+    height: 100%
 }
 
-.banner{
-    margin: 20px 20px;
+.container{
+    display: flex;
+    background-color:  hsl(47, 88%, 63%);
     justify-content: center;
     align-items: center;
+    height: 100%;
+
 }
 
-.banner img{
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
+.content{
+    background-color:hsl(0, 0%, 100%);
+    padding:2rem;
+    border-radius: 10px;
+    
 }
 
-a{
-    margin-left: 20px;
-    background-color: hsl(47, 88%, 63%);
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    color:hsl(0, 0%, 7%);
-    font-size: 16px;
-    font-weight: bold;
+.logo{
+    width: 400px;
+    object-fit: contain;
+    border-radius: 10px;
 }
 
-a:hover{
-    background-color: #ff0000;
+#title{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: hsl(47, 88%, 63%);
+    
 }
+
 p{
-    margin-left: 20px;
-    margin-top: 30px;
-    font-size: 16px;
-
-}
-
-h1{
-    margin-left: 20px;
-    font-size: 60px;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .small{
-    font-size: 40px;
-    line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.4;
+    width: 400px;
+    margin-bottom: 20px;
     color: hsl(0, 0%, 42%);
-
+}
+.btn{
+    display: flex;
+    padding: 10px ;
+    margin-top: 20px;
+    text-decoration: none;
+    color:#000000 ;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color:hsl(47, 88%, 63%);
 }
 
 .avatar{
-    padding-bottom: 40px;
-    margin-left: 20px;
     display: flex;
+    gap: 20px;
 }
 
 .avatar p{
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 15px;
+    font-weight: 700;
 }
 
+.btn:hover{
+    background-color:hsl(47, 89%, 73%);
+}
 
 .attribution{ 
     font-size: 11px; text-align: center; }
 .attribution a { 
     color: hsl(228, 45%, 44%); }
-
-
-@media (max-width:600px){
-.small{
-    font-size:20px;
-}
-h1{
-    font-size: 30px;
-}
-
-}
